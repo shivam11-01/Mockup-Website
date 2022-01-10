@@ -1,0 +1,111 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:300,regular,500,600,700,800,300italic,italic,500italic,600italic,700italic,800italic");
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #053631;
+  background-repeat: none;
+  background-size: cover;
+  font-family: "Spartan", sans-serif;
+}
+
+.logo {
+  color: #eec69e;
+  font-size: 40px;
+  padding-top: 5px;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 50px;
+}
+
+.nav-links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+}
+
+.nav-links li {
+  margin-left: 30px;
+  font-size: 20px;
+  color: #eec69e;
+}
+
+.heading {
+  color: white;
+  font-size: 80px;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  margin-top: 14%;
+  padding-top: 80px;
+  font-weight: 300;
+}
+
+.sub-heading{
+    color: white;
+    font-size: 16px;
+    padding-top: 10px;
+    font-family: "Spartan", sans-serif;
+    font-weight: normal;
+}
+
+.social-icons {
+  color: white;
+  justify-content: space-evenly;
+  /* margin-left: 10px; */
+  margin-top: 32%;
+  font-size: 20px;
+}
+
+.social-icons i {
+  margin-left: 30px;
+}
+
+.pip {
+  height: 300px;
+}
+.section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 50px;
+}
+
+.left,
+.right {
+  width: 50vw;
+}
+
+.right {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  top: 20px;
+  flex-direction: column;
+  margin-left: 40px;
+}
+
+.arrow i {
+  font-size: 30px;
+  color: white;
+  margin: 20px 10px;
+}
+
+.button {
+  background-color: white;
+  border-radius: 20px;
+  padding: 10px;
+  border: none;
+  outline: none;
+  margin-left: 30px;
+  font-weight: bolder;  
+}
+
